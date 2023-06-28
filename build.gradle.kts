@@ -27,6 +27,10 @@ dependencies {
     implementation("io.ktor:ktor-client-content-negotiation:$ktor_version")
     implementation("io.ktor:ktor-serialization-kotlinx-json:$ktor_version")
 
+    implementation ("io.ktor:ktor-client-okhttp:$ktor_version")
+    implementation ("io.ktor:ktor-client-json:$ktor_version")
+    implementation ("io.ktor:ktor-client-serialization:$ktor_version")
+
     // fournir une implémentation de client HTTP pour Ktor
     implementation("io.ktor:ktor-client-apache:$ktor_version")
 }
